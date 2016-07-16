@@ -12,7 +12,7 @@ import java.lang.annotation.Target;
 
 /**
  *
- * @author adamjak2726607
+ * @author Marian Adamjak2726607
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)

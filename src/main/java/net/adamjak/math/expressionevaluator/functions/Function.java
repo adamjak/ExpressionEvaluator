@@ -12,7 +12,7 @@ import net.adamjak.math.expressionevaluator.tokens.Token;
 
 /**
  *
- * @author adamjak
+ * @author Marian Adamjak
  */
 public interface Function {
 

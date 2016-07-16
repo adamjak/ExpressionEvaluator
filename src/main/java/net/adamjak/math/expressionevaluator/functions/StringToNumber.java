@@ -15,7 +15,7 @@ import net.adamjak.math.expressionevaluator.tokens.TokenType;
 
 /**
  *
- * @author adamjak
+ * @author Marian Adamjak
  */
 @ExpressionFunction(name ="STRNUM")
 public class StringToNumber implements Function{

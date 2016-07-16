@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2015, Marian Adamjak
+ * Copyright (c) 2016, Marian Adamjak
  * All rights reserved.
  * 
  * Redistribution and use in source and binary forms, with or without
@@ -50,7 +50,7 @@ import net.adamjak.utils.validators.ObjectNotNull;
 
 /**
  *
- * @author adamjak
+ * @author Marian Adamjak
  */
 public class BaseExpression extends Expression {
 
