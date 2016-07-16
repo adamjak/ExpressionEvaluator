@@ -42,7 +42,7 @@ import net.adamjak.math.expressionevaluator.tokens.TokenType;
 public class MathFunction implements Function{
 
     enum FunctionName {
-        ABS, ACOS, ASIN, ATAN, ATAN2,SIN,COS,TAN,EXP,LOG,LOG10,LOGBASE,POWER; 
+        ABS, ACOS, ASIN, ATAN, ATAN2,SIN,SINH,COS,COSH,TAN,TANH,EXP,LOG,LOG10,LOGBASE,POWER; 
         
         public Double[] calculate(Double... arguments){
             Double[] results;
@@ -92,6 +92,15 @@ public class MathFunction implements Function{
                         results[i] = Math.sin(arguments[0]);
                     }
                     return results;
+                case SINH:
+                    if(arguments == null || arguments.length < 1){
+                        throw new IllegalArgumentException("COS function requires one parameter, at least");
+                    }
+                    results = new Double[arguments.length];
+                    for(int i = 0; i<results.length; i++){
+                        results[i] = Math.sinh(arguments[0]);
+                    }
+                    return results;
                 case COS:
                     if(arguments == null || arguments.length < 1){
                         throw new IllegalArgumentException("COS function requires one parameter, at least");
@@ -99,6 +108,15 @@ public class MathFunction implements Function{
                     results = new Double[arguments.length];
                     for(int i = 0; i<results.length; i++){
                         results[i] = Math.cos(arguments[0]);
+                    }
+                    return results;
+                case COSH:
+                    if(arguments == null || arguments.length < 1){
+                        throw new IllegalArgumentException("COS function requires one parameter, at least");
+                    }
+                    results = new Double[arguments.length];
+                    for(int i = 0; i<results.length; i++){
+                        results[i] = Math.cosh(arguments[0]);
                     }
                     return results;
                 case TAN:
@@ -110,6 +128,15 @@ public class MathFunction implements Function{
                         results[i] = Math.tan(arguments[0]);
                     }
                     return results;
+                 case TANH:
+                    if(arguments == null || arguments.length < 1){
+                        throw new IllegalArgumentException("TAN function requires one parameter, at least");
+                    }
+                    results = new Double[arguments.length];
+                    for(int i = 0; i<results.length; i++){
+                        results[i] = Math.tanh(arguments[0]);
+                    }
+                    return results;   
                  case EXP:
                     if(arguments == null || arguments.length < 1){
                         throw new IllegalArgumentException("EXP function requires one parameter, at least");
