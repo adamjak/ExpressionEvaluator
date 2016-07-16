@@ -1,0 +1,11 @@
+/build/
+/dist/
+/target/
+/test/
+/.settings/
+.classpath
+.project
+licenseheader.txt
+manifest.mf
+nb-configuration.xml
+nbactions.xml
