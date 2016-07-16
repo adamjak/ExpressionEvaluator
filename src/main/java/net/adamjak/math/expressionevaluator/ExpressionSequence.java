@@ -28,7 +28,7 @@ package net.adamjak.math.expressionevaluator;
 
 /**
  *
- * @author Marian Adamjak2726607
+ * @author Marian Adamjak
  */
 public interface ExpressionSequence {
     int startPoisition();

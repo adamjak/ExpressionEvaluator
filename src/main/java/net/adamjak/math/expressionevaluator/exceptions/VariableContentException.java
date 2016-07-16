@@ -28,9 +28,11 @@ package net.adamjak.math.expressionevaluator.exceptions;
 
 /**
  *
- * @author madamjak
+ * @author Marian Adamjak
  */
 public class VariableContentException extends Exception {
+
+    private static final long serialVersionUID = 6069252146019502133L;
 
     public VariableContentException() {
     }

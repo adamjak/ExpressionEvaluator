@@ -31,6 +31,8 @@ package net.adamjak.math.expressionevaluator.exceptions;
  * @author Marian Adamjak
  */
 public class ParseException extends Exception {
+
+    private static final long serialVersionUID = 2302856449479601891L;
     
     private final Integer position;
     

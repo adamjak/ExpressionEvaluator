@@ -33,7 +33,7 @@ import net.adamjak.utils.validators.StringNotNullAndEmpty;
 
 /**
  *
- * @author madamjak
+ * @author Marian Adamjak
  */
 public class Token implements ExpressionSequence{
     

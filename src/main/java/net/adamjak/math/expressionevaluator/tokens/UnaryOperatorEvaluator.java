@@ -37,7 +37,7 @@ import net.adamjak.math.expressionevaluator.results.ResultType;
 
 /**
  *
- * @author madamjak
+ * @author Marian Adamjak
  */
 public class UnaryOperatorEvaluator extends TokenEvaluator{
     

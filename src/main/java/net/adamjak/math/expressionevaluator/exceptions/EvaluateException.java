@@ -31,6 +31,8 @@ package net.adamjak.math.expressionevaluator.exceptions;
  * @author Marian Adamjak
  */
 public class EvaluateException extends Exception {
+
+    private static final long serialVersionUID = -2827612727970005753L;
     
     private final int position;
     

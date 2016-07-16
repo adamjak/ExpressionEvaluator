@@ -35,7 +35,7 @@ import net.adamjak.utils.Utils;
 
 /**
  *
- * @author madamjak
+ * @author Marian Adamjak
  */
 public class ArgumentSeparatorEvaluator extends TokenEvaluator {
     

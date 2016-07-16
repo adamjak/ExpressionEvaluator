@@ -32,7 +32,7 @@ import net.adamjak.utils.Utils;
 
 /**
  *
- * @author madamjak
+ * @author Marian Adamjak
  */
 public class ResultMultiple extends Result {
     

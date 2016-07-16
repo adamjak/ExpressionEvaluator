@@ -34,7 +34,7 @@ import net.adamjak.utils.validators.CollectionNotNullAndEmpty;
 
 /**
  *
- * @author madamjak
+ * @author Marian Adamjak
  */
 public abstract class TokenEvaluator {
     

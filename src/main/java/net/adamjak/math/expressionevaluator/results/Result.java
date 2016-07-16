@@ -30,7 +30,7 @@ import net.adamjak.math.expressionevaluator.ExpressionSequence;
 
 /**
  *
- * @author madamjak
+ * @author Marian Adamjak
  */
 public abstract class Result implements ExpressionSequence {
     private final ResultType resultType;

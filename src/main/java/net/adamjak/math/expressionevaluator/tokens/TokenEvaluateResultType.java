@@ -28,7 +28,7 @@ package net.adamjak.math.expressionevaluator.tokens;
 
 /**
  *
- * @author madamjak
+ * @author Marian Adamjak
  */
 public enum TokenEvaluateResultType {
     EVALUATE_FULL,EVALUATE_PARTIALY,NO_EVALUATE
